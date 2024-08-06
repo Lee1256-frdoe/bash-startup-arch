@@ -2,7 +2,13 @@
 An **ARCH** bash script to add to your terminal to choose between updating and removing the contents of the downloads folder
 
 # INSTALLATION
-you can install this script by downloading the file and adding the script to the .bashrc file by adding the following to the bottom of the file
+you can install this script by downloading the file and adding the script to the .bashrc file by adding the following to the bottom of the file:
+
+```
+sh path/to/script/script.sh
+```
+
+you can also add sudo infront of it so it asks you for your Password on shell-startup:
 
 ```
 sh path/to/script/script.sh
