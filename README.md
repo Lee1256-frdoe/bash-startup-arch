@@ -11,7 +11,7 @@ sh path/to/script/script.sh
 you can also add sudo infront of it so it asks you for your Password on shell-startup:
 
 ```
-sh path/to/script/script.sh
+sudo sh path/to/script/script.sh
 ```
 
 You can edit this script to fit your own needs / make it compatible with your Package Manager or Distro
