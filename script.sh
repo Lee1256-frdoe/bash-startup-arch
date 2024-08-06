@@ -1,9 +1,9 @@
-echo 'Welcome to my simple script.' 
+echo 'V 1.1' 
 echo ''
 echo 'Remove Download Files? (PW required) [Y/N]'
 read -n 1 key
  if [ "$key" = "y" ]; then
-   echo '' && echo 'cleaning your downloads folder for more space and organization :D' && cd && cd Downloads/ && sudo rm -r *
+   echo '' && echo 'cleaning your downloads folder for more space and organization :D' && cd /home/lee/Downloads && sudo rm -r *
  fi
 
  if [ "$key" = "n" ]; then
@@ -13,7 +13,7 @@ read -n 1 key
 echo 'Want to update? (PW required) [Y/N]'
 read -n 1 key
  if [ "$key" = "y" ]; then
-   echo '' && sudo pacman -Syu && echo 'update complete!'
+   echo '' && sudo pacman -Syu <<< y && echo 'update complete!'
  fi
  
  if [ "$key" = "n" ]; then
