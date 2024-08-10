@@ -1,5 +1,15 @@
 echo 'V 1.1' 
 echo ''
+echo 'do you want to start the startup? [Y/N]'
+read -n 1 key 
+ if [ "$key" = "y" ]; then
+   echo ''
+ fi
+
+ if [ "$key" = "n" ]; then
+ echo ''  
+ exit
+ fi
 echo 'Remove Download Files? (PW required) [Y/N]'
 read -n 1 key
  if [ "$key" = "y" ]; then
